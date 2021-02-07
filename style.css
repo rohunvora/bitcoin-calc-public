@@ -46,6 +46,10 @@
   height: 35%;
 }
 
+.button {
+  text-align: center;
+}
+
 #or {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,7 +133,7 @@ p {
 #historical {
   margin-top: 0;
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
 }
 
 #productImage:hover {

@@ -30,6 +30,7 @@ const currentPrice = document.getElementById('amount')
 let percentage = document.getElementById('percent')
 let productImage = document.getElementById('productImage')
 let fuckinSwitch = document.getElementById('fuckin')
+let historics = document.getElementById('historical')
 // const replaceText = "if u bought" + "\n" + "bitcoin instead" + "\n" + "of fuckin" + "\n" + "tesla," + "\n" + "you'd have $7,408,000."
 
 let buttonPhrases = ["I should've listened to my friend.", "Bruhh", "Warren Buffet is a bum.", "Big F", "Fat L", "FML", "That internship was not worth it.", "This is fine. I'm fine. :)", "Fuck."]
@@ -63,7 +64,7 @@ shuffleButton.onclick = function shuffle() {
     let percentage = document.getElementById('percent')
     product.innerText = productName
     productImage.src = randomProduct.image
-    productImage.title = "Oringal Price: " + "$" + (randomProduct.originalPrice).toLocaleString() + "\n" + "Release Date: " + randomProduct.release
+    historics.innerText = "Oringal Price: " + "$" + (randomProduct.originalPrice).toLocaleString() + "\n" + "Release Date: " + randomProduct.release
     percentage.parentNode.replaceChild(percentElement, percentage)
     currentPrice.innerText = "$" + (currentValue).toLocaleString('en')
     productArray.splice(randomIndex, 1)
