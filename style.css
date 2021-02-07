@@ -1,0 +1,192 @@
+.bodyText {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 26pt;
+  text-align: left;
+  margin: 0 auto 0.5rem auto;
+}
+
+#btcPrice {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 6vw;
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+#bitcoin {
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-underline-position: under;
+}
+
+#stupid {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-underline-position: under;
+}
+
+#amount {
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-underline-position: under;
+  margin-bottom: 3rem;
+}
+
+#you {
+  margin-top: 1.5rem;
+}
+
+.responsive {
+  width: 35%;
+  height: auto;
+}
+
+#or {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  align-self: center;
+}
+
+#percent {
+  display: flex;
+  align-items: center;
+  font-size: 6vw;
+  word-break: break-word;
+  text-align: center;
+  color: darkorange;
+}
+
+.textBody {
+  margin-top: 20%;
+  margin-left: 2.5rem;
+}
+
+p {
+  text-align: center;
+  font-family: 'Rubik', 'sans-serif';
+}
+
+#orText {
+  margin-top: 2rem;
+}
+
+.button {
+  text-align: center;
+}
+
+#shuffle {
+  margin-top: 2rem;
+  background-color: blue;
+  color: white;
+  border: 0;
+  min-width: 80%;
+  max-width: 80%;
+  padding: 8vw;
+  font-size: 5vw;
+  font-weight: 700;
+  box-shadow: 0px 5px 10px rgba(darken(dodgerblue, 40%));
+  transition: all .3s;
+  cursor: pointer;
+  border-radius: 5px;
+  border-bottom: 4px solid lighten(gray, 70%);
+  outline-color: white;
+}
+
+  #shuffle:hover {
+    box-shadow: 0px 15px 25px -5px rgba(darken(dodgerblue, 40%));
+    transform: scale(1.03);
+  }
+
+  #shuffle:active {
+    box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+    transform: scale(.98);
+  }
+
+  #historical {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  #productImage:hover {
+    overflow: visible;
+  }
+
+  @media (min-width: 600px) {
+    .textBody {
+      display: flex;
+      flex-direction: column;
+      margin-top: 5%;
+      margin-bottom: 0;
+      text-align: left;
+    }
+    #or {
+      width: 45%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      margin-top: 0;
+      justify-content: space-evenly;
+    }
+    #containerTwo {
+      display: flex;
+      flex-direction: column;
+    }
+    .button {
+      display: block;
+      width: 40%;
+      margin: auto;
+    }
+    #shuffle {
+      padding: 2rem;
+      font-size: 1.5rem;
+    }
+    .responsive {
+      width: 25%;
+      height: 25%;
+    }
+    #percent {
+      display: flex;
+      align-items: center;
+      font-size: 3vw;
+      word-break: break-word;
+      text-align: center;
+      color: darkorange;
+    }
+    #orText {
+      text-align: center;
+    }
+    .bodyText {
+      margin: 0;
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 400px) {
+    .textBody {
+      margin-top: 10%;
+    }
+  }
+
+  @media (max-width: 365px) {
+    .textBody {
+      margin-top: 10%;
+    }
+    #or {
+      margin-bottom: 0rem;
+    }
+  }
+
+  @media (max-width: 281px) {
+    .bodyText {
+      font-size: 28px;
+    }
+    .textBody {
+      margin-top: 25%;
+      margin-left: 1rem;
+    }
+  }
