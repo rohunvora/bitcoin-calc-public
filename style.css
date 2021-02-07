@@ -166,9 +166,16 @@ p {
     }
   }
 
-  @media (min-width: 400px) {
+  @media (min-width: 400px) and (max-width: 550px) {
     .textBody {
       margin-top: 10%;
+    }
+  }
+
+  @media (min-width: 700px) and (max-width: 800px) {
+    .textBody {
+      margin-top: 10%;
+      margin-left: 0;
     }
   }
 
