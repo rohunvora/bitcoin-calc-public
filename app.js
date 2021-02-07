@@ -209,7 +209,7 @@ function counter(id, start, end, duration) {
     originalPrice: 699,
     singular: true,
     btcAmount: 1.60644237,
-    image: "btcimage/Juicero.png",
+    image: "btcimage/juicero.png",
     release: "3/1/16",
   }
 
