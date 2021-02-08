@@ -1,7 +1,6 @@
 * {
-  -ms-touch-action: none;
-  touch-action: none;
-  overflow-y: hidden;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
 }
 
 .bodyText {
@@ -97,8 +96,8 @@ p {
 
 .button {
   text-align: center;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
+  -ms-touch-action: none;
+  touch-action: none;
 }
 
 #shuffle {
@@ -120,8 +119,8 @@ p {
   border-radius: 5px;
   border-bottom: 4px solid lighten(gray, 70%);
   outline-color: white;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
+  -ms-touch-action: none;
+  touch-action: none;
 }
 
 #shuffle:hover {
@@ -130,6 +129,8 @@ p {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
+  -ms-touch-action: none;
+  touch-action: none;
 }
 
 #shuffle:active {
@@ -138,6 +139,8 @@ p {
   -webkit-transform: scale(.98);
   -ms-transform: scale(.98);
   transform: scale(.98);
+  -ms-touch-action: none;
+  touch-action: none;
 }
 
 #historical {
