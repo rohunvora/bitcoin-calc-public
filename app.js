@@ -92,7 +92,7 @@ function counter(id, start, end, duration) {
       current = start,
       range = end - start,
       increment = Math.floor((end - start) / 100)
-      step = Math.floor(duration / (range * 100)),
+      step = Math.floor(duration / (range)),
       timer = setInterval(() => {
         current += increment;
         obj.textContent = "$" + (current).toLocaleString()
