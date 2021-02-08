@@ -52,9 +52,9 @@ shuffleButton.onclick = function shuffle() {
     counter(currentPrice, randomProduct.originalPrice, currentValue, 10000);
 
     if (randomProduct.singular == true) {
-      fuckinSwitch.innerText = "of a fuckin"
+      fuckinSwitch.innerText = "a fuckin"
     } else {
-      fuckinSwitch.innerText = "of fuckin"
+      fuckinSwitch.innerText = "fuckin"
     }
 
   // Change DOM Elements
