@@ -64,7 +64,7 @@ shuffleButton.onclick = function shuffle() {
     let percentage = document.getElementById('percent')
     product.innerText = productName
     productImage.src = randomProduct.image
-    historics.innerText = "Oringal Price: " + "$" + (randomProduct.originalPrice).toLocaleString() + "\n" + "Release Date: " + randomProduct.release
+    historics.innerHTML = "<b>Oringal Price:</b> " + "$" + (randomProduct.originalPrice).toLocaleString() + "<br>" + "<b>Release Date: </b>" + randomProduct.release
     percentage.parentNode.replaceChild(percentElement, percentage)
     currentPrice.innerText = "$" + (currentValue).toLocaleString('en')
     productArray.splice(randomIndex, 1)
