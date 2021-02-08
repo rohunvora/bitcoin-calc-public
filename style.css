@@ -1,7 +1,7 @@
 body {
+  -ms-touch-action: manipulation;
   touch-action: manipulation;
 }
-
 .bodyText {
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
