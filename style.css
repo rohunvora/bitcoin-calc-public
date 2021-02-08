@@ -51,10 +51,6 @@
   height: 35%;
 }
 
-.button {
-  text-align: center;
-}
-
 #or {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -63,6 +59,8 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
   -ms-flex-item-align: center;
   align-self: center;
 }
@@ -177,7 +175,6 @@ p {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    margin-top: 0;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
