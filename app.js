@@ -387,7 +387,7 @@ function counter(id, start, end, duration) {
   };
 
   const airpodsPro = {
-    name: "Airpods Airpods Pro",
+    name: "Airpods Pros",
     originalPrice: 249,
     singular: false,
     btcAmount: 0.02704838,
