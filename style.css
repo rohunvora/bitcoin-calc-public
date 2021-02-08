@@ -95,6 +95,8 @@ p {
 
 .button {
   text-align: center;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
 }
 
 #shuffle {
@@ -116,6 +118,8 @@ p {
   border-radius: 5px;
   border-bottom: 4px solid lighten(gray, 70%);
   outline-color: white;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
 }
 
 #shuffle:hover {
