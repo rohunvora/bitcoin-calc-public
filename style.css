@@ -60,7 +60,7 @@
   justify-content: space-between;
   margin: 2rem;
   margin-top: 0rem;
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
   -ms-flex-item-align: center;
   align-self: center;
 }
@@ -89,7 +89,7 @@ p {
 }
 
 #orText {
-  margin-top: 2rem;
+  margin: 2rem;
 }
 
 .button {
