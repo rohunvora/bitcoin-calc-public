@@ -35,6 +35,8 @@ let historics = document.getElementById('historical')
 
 let buttonPhrases = ["I should've listened to my friend.", "Bruhh", "Warren Buffet is a bum.", "Big F", "Fat L", "FML", "That internship was not worth it.", "This is fine. I'm fine. :)", "Fuck."]
 
+shuffleButton.addEventListener("click", event => {});
+
 shuffleButton.onclick = function shuffle() {
   // Set Initial Variables
     let randMax = productArray.length
