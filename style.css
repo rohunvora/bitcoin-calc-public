@@ -1,7 +1,9 @@
-body {
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
+* {
+  -ms-touch-action: none;
+  touch-action: none;
+  overflow-y: hidden;
 }
+
 .bodyText {
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
