@@ -92,7 +92,7 @@ function counter(id, start, end, duration) {
       current = start,
       range = end - start,
       increment = Math.floor((end - start) / 100)
-      step = Math.floor(duration / range),
+      step = Math.floor(duration / (range * 100)),
       timer = setInterval(() => {
         current += increment;
         obj.textContent = "$" + (current).toLocaleString()
@@ -106,7 +106,7 @@ function counter(id, start, end, duration) {
 
 
   function getTen() {
-     window.location = "http://coinbase.com/join/vora_10";
+     window.location = ("http://coinbase.com/join/vora_10", "_blank");
   }
 
   function buyBitcoin() {
@@ -136,8 +136,8 @@ function counter(id, start, end, duration) {
     currentPrice.parentNode.appendChild(just);
     currentPrice.parentNode.appendChild(experts);
     // shuffleButton.innerText = "Buy $100 in Bitcoin." + "\n" + "& you get $10 for free.";
-    shuffleButton.innerText = "Get free $10 in Bitcoin" + "\n" + "(Coinbase Special Offer)";
-    shuffleSub.innerText = "Bitcoin will hit $250K" + "\n" + "by the end of the year." + "\n" + "\n" + "Source: Trust Me Bro."
+    shuffleButton.innerHTML = "Get a free $10 in Bitcoin" + "<br>" + "<sub>(before it goes up again 😉)</sub>";
+    shuffleSub.innerText = "Bitcoin will hit $150K+" + "\n" + "by the end of the year." + "\n" + "\n" + "source: trust me bro. ;)"
   }
 
 
@@ -296,23 +296,492 @@ function counter(id, start, end, duration) {
     release: "8/1/14",
   }
 
+  const xboxOne = {
+    name: "Xbox One",
+    originalPrice: 499,
+    singular: true,
+    btcAmount: 0.66989757,
+    image: "btcimage/X Box One.png",
+    release: "11/22/13",
+  };
+
+  const snapchatSpectacles = {
+    name: "Snapchat Spectacles",
+    originalPrice: 380,
+    singular: false,
+    btcAmount: 0.5310719,
+    image: "btcimage/Snapchat Spectacles.png",
+    release: "11/10/16",
+  };
+
+  const fitbit = {
+    name: "Fitbit",
+    originalPrice: 200,
+    singular: true,
+    btcAmount: 0.32940516,
+    image: "btcimage/Fitbit.png",
+    release: "9/15/16",
+  };
+
+  const nintendoSwitch = {
+    name: "Nintendo Switch",
+    originalPrice: 299,
+    singular: true,
+    btcAmount: 0.23451165,
+    image: "btcimage/Nintendo DS.png",
+    release: "3/3/17",
+  };
+
+  const airpods = {
+    name: "Airpods",
+    originalPrice: 159,
+    singular: false,
+    btcAmount: 0.20370094,
+    image: "btcimage/Airpods.png",
+    release: "12/13/16",
+  };
+
+  const macProWheels = {
+    name: "Mac Pro Wheels",
+    originalPrice: 700,
+    singular: false,
+    btcAmount: 0.10171523,
+    image: "btcimage/Mac Pro Wheels.png",
+    release: "4/20/20",
+  };
+
+  const astroworldTickets = {
+    name: "Astroworld Tickets",
+    originalPrice: 300,
+    singular: false,
+    btcAmount: 0.05380636,
+    image: "btcimage/Astroworld Tickets.png",
+    release: "11/16/18",
+  };
+
+  const supremeBoxLogo = {
+    name: "Supreme Box Logo",
+    originalPrice: 30,
+    singular: true,
+    btcAmount: 0.05157324,
+    image: "btcimage/_0004_Supreme-f15.png",
+    release: "8/20/16",
+  };
+
+  const tinderGold = {
+    name: "Tinder Gold",
+    originalPrice: 9.99,
+    singular: true,
+    btcAmount: 0.03839325,
+    image: "btcimage/Tinder Gold.png",
+    release: "3/1/15",
+  };
+
+  const pornHubPremium = {
+    name: "PornHub Premium",
+    originalPrice: 9.99,
+    singular: true,
+    btcAmount: 0.03179008,
+    image: "btcimage/Pornhub Premium.png",
+    release: "1/1/15",
+  };
+
+  const airpodsPro = {
+    name: "Airpods Airpods Pro",
+    originalPrice: 249,
+    singular: false,
+    btcAmount: 0.02704838,
+    image: "btcimage/Airpod Pros.png",
+    release: "10/30/19",
+  };
+
+  const powerBalance = {
+    name: "Powerbalance",
+    originalPrice: 15,
+    singular: true,
+    btcAmount: 0.01785863,
+    image: "btcimage/Power Balance.png",
+    release: "12/16/13",
+  };
+
+  const cybertruckReservation = {
+    name: "Cybertruck Reservation",
+    originalPrice: 100,
+    singular: true,
+    btcAmount: 0.0134693,
+    image: "btcimage/cybertruck reservation.png",
+    release: "12/1/19",
+  };
+
+  const hungerGames = {
+    name: "Hunger Games",
+    originalPrice: 11,
+    singular: false,
+    btcAmount: 2.16962525,
+    image: "btcimage/_0036_Hunger-Games.png",
+    release: "3/12/12",
+  };
+
+  const fiftyShadesOfGrey = {
+    name: "Fifty Shades of Grey",
+    originalPrice: 19.99,
+    singular: true,
+    btcAmount: 0.06371402,
+    image: "btcimage/_0035_50-Shades-of-Grey.png",
+    release: "5/1/11",
+  };
+
+  const DJIDrone = {
+    name: "DJI Phantom drone",
+    originalPrice: 1200,
+    singular: true,
+    btcAmount: 85.166785,
+    image: "btcimage/_0034_DJI-Drone.png",
+    release: "1/7/13",
+  };
+
+  const casperMattress = {
+    name: "Casper Mattress",
+    originalPrice: 850,
+    singular: true,
+    btcAmount: 1.81997259,
+    image: "btcimage/_0033_Casper-Mattress.png",
+    release: "4/1/14",
+  };
+
+  const roku = {
+    name: "Roku",
+    originalPrice: 79,
+    singular: true,
+    btcAmount: 5.21108179,
+    image: "btcimage/_0032_Roku.png",
+    release: "7/1/11",
+  };
+
+  const philipsHueLED = {
+    name: "Philips Hue LED",
+    originalPrice: 200,
+    singular: true,
+    btcAmount: 68.4931507,
+    image: "btcimage/_0031_Philips-Hue-Light.png",
+    release: "10/29/12",
+  };
+
+  const instantPot = {
+    name: "Instant Pot",
+    originalPrice: 100,
+    singular: true,
+    btcAmount: 476.190476,
+    image: "btcimage/_0030_Instant-Pot.png",
+    release: "10/1/10",
+  };
+
+  const impossibleBurger = {
+    name: "Impossible Burger",
+    originalPrice: 7,
+    singular: true,
+    btcAmount: 0.0103505,
+    image: "btcimage/_0029_Impossible-Burger.png",
+    release: "7/1/16",
+  };
+
+  const playstationVita = {
+    name: "Playstation Vita",
+    originalPrice: 250,
+    singular: true,
+    btcAmount: 18.7265918,
+    image: "btcimage/_0028_PS-Vita.png",
+    release: "12/17/11",
+  };
+
+  const pebbleEInkWatch = {
+    name: "Pebble E-Ink Watch",
+    originalPrice: 150,
+    singular: true,
+    btcAmount: 7.72002059,
+    image: "btcimage/_0027_Pebble-Watch.png",
+    release: "1/23/13",
+  };
+
+  const theBookOfMorom = {
+    name: "Ticket to Book of Mormon",
+    originalPrice: 100,
+    singular: true,
+    btcAmount: 1.42857143,
+    image: "btcimage/_0026_Book-of-Mormon.png",
+    release: "3/24/11",
+  };
+
+  const NikeFuelband = {
+    name: "Nike+ Fuelband",
+    originalPrice: 150,
+    singular: true,
+    btcAmount: 33.7837838,
+    image: "btcimage/_0025_Nike-Fuel-Band.png",
+    release: "2/22/12",
+  };
+
+  const iPadMini = {
+    name: "iPad Mini",
+    originalPrice: 329,
+    singular: true,
+    btcAmount: 109.302326,
+    image: "btcimage/_0021_I-Pad-Mini.png",
+    release: "11/2/12",
+  };
+
+  const toyStory3 = {
+    name: "Toy Story 3 DVD",
+    originalPrice: 10.99,
+    singular: true,
+    btcAmount: 219.8,
+    image: "btcimage/_0020_Toy-Story-3.png",
+    release: "6/18/10",
+  };
+
+  const willU = {
+    name: "Wii U",
+    originalPrice: 299,
+    singular: true,
+    btcAmount: 27.3559012,
+    image: "btcimage/_0019_Wii-U.png",
+    release: "11/18/12",
+  };
+
+  const theSocialNetwork = {
+    name: "The Social Network",
+    originalPrice: 11.99,
+    singular: true,
+    btcAmount: 119.9,
+    image: "btcimage/_0018_The-Social-Network.png",
+    release: "10/12/10",
+  };
+
+  const wolfOnWallStreet = {
+    name: "Wolf on Wall Street Bluray",
+    originalPrice: 49.99,
+    singular: true,
+    btcAmount: 0.01870953,
+    image: "btcimage/_0017_Wolf-of-Wallstreet.png",
+    release: "3/25/14",
+  };
+
+  const fourHourChef = {
+    name: "4 Hour Chef",
+    originalPrice: 11,
+    singular: true,
+    btcAmount: 0.89141005,
+    image: "btcimage/_0037_4-Hour-Chef.png",
+    release: "11/20/12",
+  };
+
+  const amazonEcho = {
+    name: "Amazon Echo",
+    originalPrice: 99,
+    singular: true,
+    btcAmount: 0.30391498,
+    image: "btcimage/_0023_Amazon-Echo.png",
+    release: "11/3/14",
+  };
+
+  const appleHomepod = {
+    name: "Apple Homepod",
+    originalPrice: 299,
+    singular: true,
+    btcAmount: 0.03422235,
+    image: "btcimage/_0022_Apple-Homepod.png",
+    release: "2/9/18",
+  };
+
+  const appleWatchv1 = {
+    name: "Apple Watch v1",
+    originalPrice: 249,
+    singular: true,
+    btcAmount: 1.07667293,
+    image: "btcimage/_0016_Apple-Watch-V1.png",
+    release: "4/24/15",
+  };
+
+  const averagers = {
+    name: "Avengers Tickets",
+    originalPrice: 13,
+    singular: false,
+    btcAmount: 2.57936508,
+    image: "btcimage/_0015_Avengers.png",
+    release: "5/4/12",
+  };
+
+  const bitcoinForDummies = {
+    name: "Bitcoin for Dummies",
+    originalPrice: 14.19,
+    singular: true,
+    btcAmount: 0.03433283,
+    image: "btcimage/_0014_Bitcoin-for-Dummies.png",
+    release: "3/21/16",
+  };
+
+  const dysonVacuum = {
+    name: "Dyson Vacuum",
+    originalPrice: 299,
+    singular: true,
+    btcAmount: 1.28835442,
+    image: "btcimage/_0013_Dyson-Vacuum.png",
+    release: "5/1/15",
+  };
+
+  const kony2012Shirt = {
+    name: "Kony 2012 Shirt",
+    originalPrice: 21,
+    singular: true,
+    btcAmount: 1.74854288,
+    image: "btcimage/_0009_Kony-2012.png",
+    release: "10/10/12",
+  };
+
+  const kyleJennerLipKit = {
+    name: "Kylie Jenner Lip Kit",
+    originalPrice: 125,
+    singular: true,
+    btcAmount: 0.3312829,
+    image: "btcimage/_0008_Kylie-Jenner-Lip-Kit.png",
+    release: "11/30/15",
+  };
+
+  const mumfordAndSonsTicket = {
+    name: "Mumford and Sons Ticket",
+    originalPrice: 109,
+    singular: true,
+    btcAmount: 17.6375405,
+    image: "btcimage/_0007_Mumford-and-Sons.png",
+    release: "1/23/12",
+  };
+
+  const paulPierceJersey = {
+    name: "Paul Pierce Nets Jersey",
+    originalPrice: 70,
+    singular: true,
+    btcAmount: 2.56880734,
+    image: "btcimage/_0006_Pierce-Jersey.png",
+    release: "6/12/11",
+  };
+
+  const polaroidInstaxMini8 = {
+    name: "Polaroid Instax Mini 8",
+    originalPrice: 119,
+    singular: true,
+    btcAmount: 10.8974359,
+    image: "btcimage/_0005_Polaroid.png",
+    release: "11/1/12",
+  };
+
+  const supremeBoxLogoF15 = {
+    name: "Supreme BOGO Crewneck",
+    originalPrice: 600,
+    singular: true,
+    btcAmount: 2.62008734,
+    image: "btcimage/_0004_Supreme-f15.png",
+    release: "9/1/15",
+  };
+
+  const theraGun = {
+    name: "TheraGun",
+    originalPrice: 100,
+    singular: true,
+    btcAmount: 0.23023755,
+    image: "btcimage/_0003_Theragun.png",
+    release: "1/1/16",
+  };
+
+  const tonyRobbinsSeminar = {
+    name: "Tony Robbins Seminar",
+    originalPrice: 2950,
+    singular: true,
+    btcAmount: 3.14659947,
+    image: "btcimage/_0002_Tony-Robbins-seminar.png",
+    release: "3/24/17",
+  };
+
+  const zeroToOne = {
+    name: "Zero To One",
+    originalPrice: 24.99,
+    singular: true,
+    btcAmount: 0.05464278,
+    image: "btcimage/_0001_Zero-to-One.png",
+    release: "9/17/14",
+  };
+
+  const lvSupreme = {
+    name: "Louis Vuitton Supreme Chest",
+    originalPrice: 68500,
+    singular: true,
+    btcAmount: 53.1,
+    image: "btcimage/Supreme Chest.png",
+    release: "3/02/17",
+  };
 
   const productArray = [
     shakeWeight,
     beatsSolo,
-    // sapiens,
-    // tesla,
-    // nintendoDS,
-    // oculus,
-    // goPro,
-    // starbucks,
-    // cardsAgainst,
-    // iPhone,
-    // googleGlass,
-    // coachellaTickets,
-    // juicero,
-    // ps4,
-    // yeezy,
-    // juul,
-    // hoverboard,
+    sapiens,
+    tesla,
+    nintendoDS,
+    oculus,
+    goPro,
+    starbucks,
+    cardsAgainst,
+    iPhone,
+    googleGlass,
+    coachellaTickets,
+    juicero,
+    ps4,
+    yeezy,
+    juul,
+    hoverboard,
+    xboxOne,
+    snapchatSpectacles,
+    fitbit,
+    nintendoSwitch,
+    airpods,
+    macProWheels,
+    astroworldTickets,
+    supremeBoxLogo,
+    tinderGold,
+    pornHubPremium,
+    airpodsPro,
+    powerBalance,
+    cybertruckReservation,
+    hungerGames,
+    fiftyShadesOfGrey,
+    DJIDrone,
+    casperMattress,
+    roku,
+    philipsHueLED,
+    instantPot,
+    impossibleBurger,
+    playstationVita,
+    pebbleEInkWatch,
+    theBookOfMorom,
+    NikeFuelband,
+    iPadMini,
+    toyStory3,
+    willU,
+    theSocialNetwork,
+    wolfOnWallStreet,
+    fourHourChef,
+    amazonEcho,
+    appleHomepod,
+    appleWatchv1,
+    averagers,
+    bitcoinForDummies,
+    dysonVacuum,
+    kony2012Shirt,
+    kyleJennerLipKit,
+    mumfordAndSonsTicket,
+    paulPierceJersey,
+    polaroidInstaxMini8,
+    supremeBoxLogoF15,
+    theraGun,
+    tonyRobbinsSeminar,
+    zeroToOne,
+    lvSupreme,
   ];

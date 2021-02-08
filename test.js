@@ -1,5 +1,4 @@
-var object1 = {
-  objectName: "xboxOne",
+var xboxOne = {
   name: "Xbox One",
   originalPrice: 499,
   singular: true,
@@ -8,8 +7,7 @@ var object1 = {
   ReleaseDate: "11/22/13",
 };
 
-var object2 = {
-  objectName: "snapchatSpectacles",
+var snapchatSpectacles = {
   name: "Snapchat Spectacles",
   originalPrice: 380,
   singular: false,
@@ -18,8 +16,7 @@ var object2 = {
   ReleaseDate: "11/10/16",
 };
 
-var object3 = {
-  objectName: "fitbit",
+var fitbit = {
   name: "Fitbit",
   originalPrice: 200,
   singular: true,
@@ -28,8 +25,7 @@ var object3 = {
   ReleaseDate: "9/15/16",
 };
 
-var object4 = {
-  objectName: "nintendoSwitch",
+var nintendoSwitch = {
   name: "Nintendo Switch",
   originalPrice: 299,
   singular: true,
@@ -38,8 +34,7 @@ var object4 = {
   ReleaseDate: "3/3/17",
 };
 
-var object5 = {
-  objectName: "airpods",
+var airpods = {
   name: "Airpods",
   originalPrice: 159,
   singular: false,
@@ -48,18 +43,7 @@ var object5 = {
   ReleaseDate: "12/13/16",
 };
 
-var object6 = {
-  objectName: "airpods",
-  name: "Airpods",
-  originalPrice: 159,
-  singular: false,
-  btcAmount: 0.20370094,
-  image: "btcimage/",
-  ReleaseDate: "12/13/16",
-};
-
-var object7 = {
-  objectName: "macProWheels",
+var macProWheels = {
   name: "Mac Pro Wheels",
   originalPrice: 700,
   singular: false,
@@ -68,9 +52,8 @@ var object7 = {
   ReleaseDate: "4/20/20",
 };
 
-var object8 = {
-  objectName: "astroworldTickets",
-  name: "Astroworld Tickets (2)",
+var astroworldTickets = {
+  name: "Astroworld Tickets",
   originalPrice: 300,
   singular: false,
   btcAmount: 0.05380636,
@@ -78,8 +61,7 @@ var object8 = {
   ReleaseDate: "11/16/18",
 };
 
-var object9 = {
-  objectName: "supremeBoxLogo",
+var supremeBoxLogo = {
   name: "Supreme Box Logo",
   originalPrice: 30,
   singular: true,
@@ -88,8 +70,7 @@ var object9 = {
   ReleaseDate: "8/20/16",
 };
 
-var object10 = {
-  objectName: "tinderPremium",
+var tinderPremium = {
   name: "Tinder Premium",
   originalPrice: 9.99,
   singular: true,
@@ -98,18 +79,7 @@ var object10 = {
   ReleaseDate: "3/1/15",
 };
 
-var object11 = {
-  objectName: "tinderPremium",
-  name: "Tinder Premium",
-  originalPrice: 9.99,
-  singular: true,
-  btcAmount: 0.03839325,
-  image: "btcimage/",
-  ReleaseDate: "3/1/15",
-};
-
-var object12 = {
-  objectName: "pornHubPremium",
+var pornHubPremium = {
   name: "PornHub Premium",
   originalPrice: 9.99,
   singular: true,
@@ -118,8 +88,7 @@ var object12 = {
   ReleaseDate: "1/1/15",
 };
 
-var object13 = {
-  objectName: "airpodsPro",
+var airpodsPro = {
   name: "Airpods Airpods Pro",
   originalPrice: 249,
   singular: false,
@@ -128,8 +97,7 @@ var object13 = {
   ReleaseDate: "10/30/19",
 };
 
-var object14 = {
-  objectName: "powerBalance",
+var powerBalance = {
   name: "Powerbalance",
   originalPrice: 15,
   singular: true,
@@ -138,8 +106,7 @@ var object14 = {
   ReleaseDate: "12/16/13",
 };
 
-var object15 = {
-  objectName: "cybertruckReservation",
+var cybertruckReservation = {
   name: "Cybertruck Reservation",
   originalPrice: 100,
   singular: true,
@@ -148,18 +115,7 @@ var object15 = {
   ReleaseDate: "12/1/19",
 };
 
-var object16 = {
-  objectName: "cybertruckReservation",
-  name: "Cybertruck Reservation",
-  originalPrice: 100,
-  singular: true,
-  btcAmount: 0.0134693,
-  image: "btcimage/",
-  ReleaseDate: "12/1/19",
-};
-
-var object17 = {
-  objectName: "travisScottmeal",
+var travisScottmeal = {
   name: "Travis Scott Meal",
   originalPrice: 6,
   singular: true,
@@ -168,8 +124,7 @@ var object17 = {
   ReleaseDate: "9/12/20",
 };
 
-var object18 = {
-  objectName: "hungerGames",
+var hungerGames = {
   name: "Hunger Games",
   originalPrice: 11,
   singular: false,
@@ -178,8 +133,7 @@ var object18 = {
   ReleaseDate: "3/12/12",
 };
 
-var object19 = {
-  objectName: "fiftyShadesOfGrey",
+var fiftyShadesOfGrey = {
   name: "Fifty Shades of Grey",
   originalPrice: 19.99,
   singular: true,
@@ -188,8 +142,7 @@ var object19 = {
   ReleaseDate: "5/1/11",
 };
 
-var object20 = {
-  objectName: "DJIDrone",
+var DJIDrone = {
   name: "DJI Phantom drone",
   originalPrice: 1200,
   singular: true,
@@ -198,9 +151,8 @@ var object20 = {
   ReleaseDate: "1/7/13",
 };
 
-var object21 = {
-  objectName: "casperMattress",
-  name: "Casper mattress",
+var casperMattress = {
+  name: "Casper Mattress",
   originalPrice: 850,
   singular: true,
   btcAmount: 1.81997259,
@@ -208,18 +160,8 @@ var object21 = {
   ReleaseDate: "4/1/14",
 };
 
-var object22 = {
-  objectName: "casperMattress",
-  name: "Casper mattress",
-  originalPrice: 850,
-  singular: true,
-  btcAmount: 1.81997259,
-  image: "btcimage/_0033_Casper-Mattress.png",
-  ReleaseDate: "4/1/14",
-};
 
-var object23 = {
-  objectName: "roku",
+var roku = {
   name: "Roku",
   originalPrice: 79,
   singular: true,
@@ -228,8 +170,7 @@ var object23 = {
   ReleaseDate: "7/1/11",
 };
 
-var object24 = {
-  objectName: "philipsHueLED",
+var philipsHueLED = {
   name: "Philips Hue LED",
   originalPrice: 200,
   singular: true,
@@ -238,8 +179,7 @@ var object24 = {
   ReleaseDate: "10/29/12",
 };
 
-var object25 = {
-  objectName: "instantPot",
+var instantPot = {
   name: "Instant Pot",
   originalPrice: 100,
   singular: true,
@@ -248,8 +188,7 @@ var object25 = {
   ReleaseDate: "10/1/10",
 };
 
-var object26 = {
-  objectName: "impossibleBurger",
+var impossibleBurger = {
   name: "Impossible Burger",
   originalPrice: 7,
   singular: true,
@@ -258,8 +197,7 @@ var object26 = {
   ReleaseDate: "7/1/16",
 };
 
-var object27 = {
-  objectName: "playstationVita",
+var playstationVita = {
   name: "Playstation Vita",
   originalPrice: 250,
   singular: true,
@@ -268,8 +206,7 @@ var object27 = {
   ReleaseDate: "12/17/11",
 };
 
-var object28 = {
-  objectName: "playstationVita",
+var playstationVita = {
   name: "Playstation Vita",
   originalPrice: 250,
   singular: true,
@@ -278,8 +215,7 @@ var object28 = {
   ReleaseDate: "12/17/11",
 };
 
-var object29 = {
-  objectName: "pebbleEInkWatch",
+var pebbleEInkWatch = {
   name: "Pebble E-Ink Watch",
   originalPrice: 150,
   singular: true,
@@ -288,9 +224,8 @@ var object29 = {
   ReleaseDate: "1/23/13",
 };
 
-var object30 = {
-  objectName: "theBookOfMorom",
-  name: "The Book of Mormon",
+var theBookOfMorom = {
+  name: "Ticket to Book of Mormon",
   originalPrice: 100,
   singular: true,
   btcAmount: 1.42857143,
@@ -298,8 +233,7 @@ var object30 = {
   ReleaseDate: "3/24/11",
 };
 
-var object31 = {
-  objectName: "NikeFuelband",
+var NikeFuelband = {
   name: "Nike+ Fuelband",
   originalPrice: 150,
   singular: true,
@@ -308,8 +242,7 @@ var object31 = {
   ReleaseDate: "2/22/12",
 };
 
-var object32 = {
-  objectName: "iPadMini",
+var iPadMini = {
   name: "iPad Mini",
   originalPrice: 329,
   singular: true,
@@ -318,19 +251,10 @@ var object32 = {
   ReleaseDate: "11/2/12",
 };
 
-var object33 = {
-  objectName: "iPadMini",
-  name: "iPad Mini",
-  originalPrice: 329,
-  singular: true,
-  btcAmount: 109.302326,
-  image: "btcimage/_0021_I-Pad-Mini.png",
-  ReleaseDate: "11/2/12",
-};
 
-var object34 = {
-  objectName: "toyStory3",
-  name: "Toy Story 3",
+var toyStory3 = {
+  objectName: "",
+  name: "Toy Story 3 DVD",
   originalPrice: 10.99,
   singular: true,
   btcAmount: 219.8,
@@ -338,8 +262,7 @@ var object34 = {
   ReleaseDate: "6/18/10",
 };
 
-var object35 = {
-  objectName: "willU",
+var willU = {
   name: "Wii U",
   originalPrice: 299,
   singular: true,
@@ -348,8 +271,7 @@ var object35 = {
   ReleaseDate: "11/18/12",
 };
 
-var object36 = {
-  objectName: "theSocialNetwork",
+var theSocialNetwork = {
   name: "The Social Network",
   originalPrice: 11.99,
   singular: true,
@@ -358,9 +280,8 @@ var object36 = {
   ReleaseDate: "10/12/10",
 };
 
-var object37 = {
-  objectName: "wolfOnWallStreet",
-  name: "Wolf on Wall Street bluray",
+var wolfOnWallStreet = {
+  name: "Wolf on Wall Street Bluray",
   originalPrice: 49.99,
   singular: true,
   btcAmount: 0.01870953,
@@ -368,8 +289,7 @@ var object37 = {
   ReleaseDate: "3/25/14",
 };
 
-var object38 = {
-  objectName: "4HourChef",
+var fourHourChef = {
   name: "4 Hour Chef",
   originalPrice: 11,
   singular: true,
@@ -378,18 +298,8 @@ var object38 = {
   ReleaseDate: "11/20/12",
 };
 
-var object39 = {
-  objectName: "4HourChef",
-  name: "4 Hour Chef",
-  originalPrice: 11,
-  singular: true,
-  btcAmount: 0.89141005,
-  image: "btcimage/_0037_4-Hour-Chef.png",
-  ReleaseDate: "11/20/12",
-};
 
-var object40 = {
-  objectName: "amazonEcho",
+var amazonEcho = {
   name: "Amazon Echo",
   originalPrice: 99,
   singular: true,
@@ -398,8 +308,7 @@ var object40 = {
   ReleaseDate: "11/3/14",
 };
 
-var object41 = {
-  objectName: "appleHomepod",
+var appleHomepod = {
   name: "Apple Homepod",
   originalPrice: 299,
   singular: true,
@@ -408,8 +317,7 @@ var object41 = {
   ReleaseDate: "2/9/18",
 };
 
-var object42 = {
-  objectName: "appleWatchv1",
+var appleWatchv1 = {
   name: "Apple Watch v1",
   originalPrice: 249,
   singular: true,
@@ -418,18 +326,7 @@ var object42 = {
   ReleaseDate: "4/24/15",
 };
 
-var object43 = {
-  objectName: "appleWatchv1",
-  name: "Apple Watch v1",
-  originalPrice: 249,
-  singular: true,
-  btcAmount: 1.07667293,
-  image: "btcimage/_0016_Apple-Watch-V1.png",
-  ReleaseDate: "4/24/15",
-};
-
-var object44 = {
-  objectName: "averagers",
+var averagers = {
   name: "Avengers Tickets",
   originalPrice: 13,
   singular: false,
@@ -438,8 +335,7 @@ var object44 = {
   ReleaseDate: "5/4/12",
 };
 
-var object45 = {
-  objectName: "bitcoinForDummies",
+var bitcoinForDummies = {
   name: "Bitcoin for Dummies",
   originalPrice: 14.19,
   singular: true,
@@ -448,8 +344,7 @@ var object45 = {
   ReleaseDate: "3/21/16",
 };
 
-var object46 = {
-  objectName: "dysonVacuum",
+var dysonVacuum = {
   name: "Dyson Vacuum",
   originalPrice: 299,
   singular: true,
@@ -458,18 +353,16 @@ var object46 = {
   ReleaseDate: "5/1/15",
 };
 
-var object47 = {
-  objectName: "kony2012Shirt",
+var kony2012Shirt = {
   name: "Kony 2012 Shirt",
   originalPrice: 21,
   singular: true,
   btcAmount: 1.74854288,
-  image: "btcimage/_0010_Linsanity-Jersey.png",
+  image: "btcimage/",
   ReleaseDate: "10/10/12",
 };
 
-var object48 = {
-  objectName: "kyleJennerLipKit",
+var kyleJennerLipKit = {
   name: "Kylie Jenner Lip Kit",
   originalPrice: 125,
   singular: true,
@@ -478,18 +371,7 @@ var object48 = {
   ReleaseDate: "11/30/15",
 };
 
-var object49 = {
-  objectName: "kyleJennerLipKit",
-  name: "Kylie Jenner Lip Kit",
-  originalPrice: 125,
-  singular: true,
-  btcAmount: 0.3312829,
-  image: "btcimage/_0008_Kylie-Jenner-Lip-Kit.png",
-  ReleaseDate: "11/30/15",
-};
-
-var object50 = {
-  objectName: "mumfordAndSonsTicket",
+var mumfordAndSonsTicket = {
   name: "Mumford and Sons Ticket",
   originalPrice: 109,
   singular: true,
@@ -498,19 +380,10 @@ var object50 = {
   ReleaseDate: "1/23/12",
 };
 
-var object51 = {
-  objectName: "oneSemesterOfCollegeTuition",
-  name: "One semester of College Tuition",
-  originalPrice: 35000,
-  singular: true,
-  btcAmount: 153.427346,
-  image: "btcimage/",
-  ReleaseDate: "9/1/15",
-};
 
 var object52 = {
   objectName: "patagoniaZipUp",
-  name: "Patagonia Zip Up",
+  name: "Patagonia Zip Up 🥶",
   originalPrice: 99,
   singular: true,
   btcAmount: 0.15113697,
@@ -518,8 +391,7 @@ var object52 = {
   ReleaseDate: "7/28/16",
 };
 
-var object53 = {
-  objectName: "paulPierceJersey",
+var paulPierceJersey = {
   name: "Paul Pierce Jersey",
   originalPrice: 70,
   singular: true,
@@ -528,8 +400,7 @@ var object53 = {
   ReleaseDate: "6/12/11",
 };
 
-var object54 = {
-  objectName: "PolaroidInstaxMini8",
+var polaroidInstaxMini8 = {
   name: "Polaroid Instax Mini 8",
   originalPrice: 119,
   singular: true,
@@ -538,18 +409,7 @@ var object54 = {
   ReleaseDate: "11/1/12",
 };
 
-var object55 = {
-  objectName: "PolaroidInstaxMini8",
-  name: "Polaroid Instax Mini 8",
-  originalPrice: 119,
-  singular: true,
-  btcAmount: 10.8974359,
-  image: "btcimage/_0005_Polaroid.png",
-  ReleaseDate: "11/1/12",
-};
-
-var object56 = {
-  objectName: "ringCamera",
+var ringCamera = {
   name: "Ring Camera",
   originalPrice: 169,
   singular: true,
@@ -558,9 +418,9 @@ var object56 = {
   ReleaseDate: "3/1/15",
 };
 
-var object57 = {
-  objectName: "supremeBoxLogoF15",
-  name: "Supreme Box Logo F15",
+var supremeBoxLogoF15 = {
+  objectName: "",
+  name: "Supreme BOGO Crewneck",
   originalPrice: 600,
   singular: true,
   btcAmount: 2.62008734,
@@ -568,8 +428,7 @@ var object57 = {
   ReleaseDate: "9/1/15",
 };
 
-var object58 = {
-  objectName: "theraGun",
+var theraGun = {
   name: "TheraGun",
   originalPrice: 100,
   singular: true,
@@ -578,8 +437,7 @@ var object58 = {
   ReleaseDate: "1/1/16",
 };
 
-var object59 = {
-  objectName: "tonyRobbinsSeminar",
+var tonyRobbinsSeminar = {
   name: "Tony Robbins Seminar",
   originalPrice: 2950,
   singular: true,
@@ -588,8 +446,7 @@ var object59 = {
   ReleaseDate: "3/24/17",
 };
 
-var object60 = {
-  objectName: "zeroToOne",
+var zeroToOne = {
   name: "Zero To One",
   originalPrice: 24.99,
   singular: true,
@@ -598,22 +455,11 @@ var object60 = {
   ReleaseDate: "9/17/14",
 };
 
-var object61 = {
-  objectName: "zeroToOne",
-  name: "Zero To One",
-  originalPrice: 24.99,
-  singular: true,
-  btcAmount: 0.05464278,
-  image: "btcimage/_0001_Zero-to-One.png",
-  ReleaseDate: "9/17/14",
-};
-
-var object62 = {
-  objectName: "lvSupreme",
+var lvSupreme = {
   name: "Louis Vuitton Supreme Chest",
   originalPrice: 68500,
   singular: true,
-  btcAmount: null,
+  btcAmount: 53.1,
   image: "btcimage/Supreme Chest.png",
-  ReleaseDate: "",
+  ReleaseDate: "3/02/17",
 };
