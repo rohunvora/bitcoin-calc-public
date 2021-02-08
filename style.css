@@ -1,3 +1,4 @@
+
 * {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
@@ -81,6 +82,12 @@
 .textBody {
   margin-top: 10%;
   margin-left: 2.5rem;
+}
+
+#starting {
+  text-decoration: underline;
+  -webkit-text-decoration-color: orange;
+  text-decoration-color: orange;
 }
 
 p {

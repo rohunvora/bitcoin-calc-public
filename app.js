@@ -31,12 +31,24 @@ let percentage = document.getElementById('percent')
 let productImage = document.getElementById('productImage')
 let fuckinSwitch = document.getElementById('fuckin')
 let historics = document.getElementById('historical')
+let boughtElement = document.getElementById('bought')
+let bitcoinElement = document.getElementById('bitcoin')
+let bitcoinElementTwo = document.getElementById('bitcoinTwo')
+let youElement = document.getElementById("you");
+let orElement = document.getElementById('or')
+let shuffleSub = document.getElementById('shuffleSub')
 // const replaceText = "if u bought" + "\n" + "bitcoin instead" + "\n" + "of fuckin" + "\n" + "tesla," + "\n" + "you'd have $7,408,000."
 
 let buttonPhrases = ["I should've listened to my friend.", "Bruhh", "Warren Buffet is a bum.", "Big F", "Fat L", "FML", "That internship was not worth it.", "This is fine. I'm fine. :)", "Fuck."]
 
 
 shuffleButton.onclick = function shuffle() {
+
+    if (productArray.length == 0) {
+      shuffleButton.disabled = true;
+      buyBitcoin()
+    }
+
   // Set Initial Variables
     let randMax = productArray.length
     let randMaxTwo = buttonPhrases.length
@@ -65,16 +77,13 @@ shuffleButton.onclick = function shuffle() {
     let percentage = document.getElementById('percent')
     product.innerText = productName
     productImage.src = randomProduct.image
-    historics.innerHTML = "<b>Oringal Price:</b> " + "$" + (randomProduct.originalPrice).toLocaleString() + "<br>" + "<b>Release Date: </b>" + randomProduct.release
+    historics.innerHTML = "<b>Original Price:</b> " + "$" + (randomProduct.originalPrice).toLocaleString() + "<br>" + "<b>Release Date: </b>" + randomProduct.release
     percentage.parentNode.replaceChild(percentElement, percentage)
     currentPrice.innerText = "$" + (currentValue).toLocaleString('en')
     productArray.splice(randomIndex, 1)
     shuffleButton.innerText = randomPhrase
-  // Console Logs
-    console.log(productArray)
-    console.log(productName + ", " + currentValue + ", " + percentChange);
-    console.log(randomProduct)
-    console.log(btcPrice)
+
+    // Final Page
 }
 
 function counter(id, start, end, duration) {
@@ -93,6 +102,42 @@ function counter(id, start, end, duration) {
           shuffleButton.disabled = false
         }
       }, step);
+  }
+
+
+  function getTen() {
+     window.location = "http://coinbase.com/join/vora_10";
+  }
+
+  function buyBitcoin() {
+
+    setTimeout(function () {
+      shuffleButton.disabled = false;
+    }, 2000);
+
+    shuffleButton.onclick = getTen;
+    boughtElement.innerText = "we're out of" + "\n" + "stupid shit..."
+    bitcoinElementTwo.innerText = "so, just buy some";
+    bitcoinElement.innerText = "";
+    fuckinSwitch.style.display = "none"
+    product.innerText = "bitcoin already.";
+    youElement.innerText = "its really";
+    currentPrice.innerText = "not too late."
+    orElement.style.display = "none"
+    historics.style.display = "none"
+    let experts = document.createElement("h1")
+    let just = document.createElement("h1")
+    just.className = "bodyText"
+    just.id = "just"
+    just.innerText = "its just";
+    experts.className = "bodyText"
+    experts.id = "starting"
+    experts.innerText = "getting started.";
+    currentPrice.parentNode.appendChild(just);
+    currentPrice.parentNode.appendChild(experts);
+    // shuffleButton.innerText = "Buy $100 in Bitcoin." + "\n" + "& you get $10 for free.";
+    shuffleButton.innerText = "Get free $10 in Bitcoin" + "\n" + "(Coinbase Special Offer)";
+    shuffleSub.innerText = "Bitcoin will hit $250K" + "\n" + "by the end of the year." + "\n" + "\n" + "Source: Trust Me Bro."
   }
 
 
@@ -251,22 +296,23 @@ function counter(id, start, end, duration) {
     release: "8/1/14",
   }
 
+
   const productArray = [
     shakeWeight,
     beatsSolo,
-    sapiens,
-    tesla,
-    nintendoDS,
-    oculus,
-    goPro,
-    starbucks,
-    cardsAgainst,
-    iPhone,
-    googleGlass,
-    coachellaTickets,
-    juicero,
-    ps4,
-    yeezy,
-    juul,
-    hoverboard
+    // sapiens,
+    // tesla,
+    // nintendoDS,
+    // oculus,
+    // goPro,
+    // starbucks,
+    // cardsAgainst,
+    // iPhone,
+    // googleGlass,
+    // coachellaTickets,
+    // juicero,
+    // ps4,
+    // yeezy,
+    // juul,
+    // hoverboard,
   ];
