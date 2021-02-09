@@ -40,10 +40,11 @@ let shuffleSub = document.getElementById('shuffleSub')
 let buttonClass = document.getElementById('button')
 // const replaceText = "if u bought" + "\n" + "bitcoin instead" + "\n" + "of fuckin" + "\n" + "tesla," + "\n" + "you'd have $7,408,000."
 
-let buttonPhrases = ["I should've listened to my friend.", "Bruhh", "Warren Buffet is a bum.", "Big F", "Fat L", "FML", "That internship was not worth it.", "This is fine. I'm fine. :)", "Fuck."]
+let buttonPhrases = ["I should've listened to my friend.", "Bruhh", "Warren Buffet is a bum.", "Big F", "Fat L", "FML", "That internship was not worth it.", "This is fine. I'm fine. :)", "Fuck.", "fuck acorns", "fuck robinhood", "compound interest is for cucks", "I have some soul searching to do.", "i --", "stonks?", "shiiiiiit", "kevin o'leary ain't know shit", "is this PTSD??", "🥲", "🪦", "💀", "I don't wanna be poor ", "*me refreshing my bank app for the stimmy check*", "oh, that's not that bad", "eh, that was worth it👍", "No regrets ✨", "Wait, how much do kidneys go for?", "i didn't buy that 😅", "yeah, whatever 🙂", "yeah, but i have the S&P 500!", "fuck these nerds. fuck. ", "are we... bitcoin?", "motley fool is cancelled", "i'm sick.", "buy ✍️ when ✍️ elon ✍️ tweets ✍️", "fuck stocks", "soulja boy called it", "fuck it, 💎🙌", "boutta flex my coinbase", "Bitcoin on my neck", "Bitcoin on my wrist", "imma ask for the ring back", "yo, when's my bar mitzvah. oh i'm 43.", "oh. i'm broke.", "yeah, well i like ramen", "is david dobrik giving bitcoin?", "bitcoin is risky. imma stick to paper.", "B.R.E.A.M", "looking for Coin Daddies in my area.", "imma need a prenup", "no.", "uhhhhhhhh", " ¯\_(ツ)_/¯", "I'd rather have DOGE😅🔫", "ELON ELON ELON", "i gotta stop drinking.", "i gotta stop smoking.", "i need help.", "i am getting a therapist", "Why did I start 7 clubs in high school?", "☉ ‿ ⚆", "┌П┐(ಠ_ಠ)", "(⌐⊙_⊙)", "Ray Dalio is washed.", "401k => 401B", "i regret everything", "i regret nothing! 🥸" ]
 
 
 shuffleButton.onclick = function shuffle() {
+  console.log(productArray.length)
 
     shuffleButton.innerText = "..."
     shuffleButton.disabled = true
@@ -84,6 +85,7 @@ shuffleButton.onclick = function shuffle() {
     percentage.parentNode.replaceChild(percentElement, percentage)
     currentPrice.innerText = "$$$"
     productArray.splice(randomIndex, 1)
+    buttonPhrases.splice(randomIndexTwo, 1)
 
 
     // Final Page
