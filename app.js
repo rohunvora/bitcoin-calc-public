@@ -44,6 +44,8 @@ let buttonPhrases = ["I should've listened to my friend.", "Bruhh", "Warren Buff
 
 shuffleButton.onclick = function shuffle() {
 
+    shuffleButton.disabled = true
+
     if (productArray.length == 0) {
       shuffleButton.disabled = true;
       buyBitcoin()
@@ -62,13 +64,13 @@ shuffleButton.onclick = function shuffle() {
     let percentChange = Math.round((currentValue - randomProduct.originalPrice) / (randomProduct.originalPrice)).toLocaleString() + "x" + "\n" + "return"
     console.log(percentChange)
     let percentElement = document.createElement('h1')
-    
+
     if (randomProduct.singular == true) {
       fuckinSwitch.innerText = "of a fuckin"
     } else {
       fuckinSwitch.innerText = "of fuckin"
     }
-    
+
     // Change DOM Elements
     percentElement.innerText = (randomProduct.btcAmount).toFixed(2) + "\n" + "Bitcoin"
     percentElement.id = "percent"
@@ -81,20 +83,17 @@ shuffleButton.onclick = function shuffle() {
     currentPrice.innerText = "$$$"
     productArray.splice(randomIndex, 1)
     shuffleButton.innerText = randomPhrase
-    
+
     // Final Page
     setTimeout(() => {  counter(currentPrice, randomProduct.originalPrice, currentValue, 10000); }, 400);
-    
 }
 
 function counter(id, start, end, duration) {
-      shuffleButton.disabled = true,
       obj = id,
       current = start,
       range = end - start,
-      increment = Math.floor((end - start) / 100)
-      step = 0
-      
+      increment = Math.floor((end - start) / 100),
+      step = 0,
       timer = setInterval(() => {
         current += increment;
         obj.textContent = "$" + (current).toLocaleString()
