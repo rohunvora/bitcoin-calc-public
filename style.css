@@ -4,12 +4,30 @@
   touch-action: manipulation;
 }
 
-.bodyText {
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+body h1 {
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
   font-size: 24pt;
   text-align: left;
-  margin: 0 auto 0.5rem auto;
+  margin: 0 0 0.5rem 0;
 }
 
 #btcPrice {
@@ -49,7 +67,6 @@
 
 .responsive {
   width: 35%;
-  height: 35%;
 }
 
 #or {
@@ -64,6 +81,7 @@
   margin-bottom: 1rem;
   -ms-flex-item-align: center;
   align-self: center;
+  align-items: center;
 }
 
 #percent {
@@ -80,8 +98,8 @@
 }
 
 .textBody {
-  margin-top: 10%;
-  margin-left: 2.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 #starting {
@@ -110,10 +128,11 @@ p {
   background-color: blue;
   color: white;
   border: 0;
-  min-width: 80%;
-  max-width: 80%;
-  padding: 8vw;
-  font-size: 5vw;
+  height: 8vh;
+  width: 80%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 100%;
   font-weight: 700;
   -webkit-box-shadow: 0px 5px 10px rgba(darken(dodgerblue, 40%));
   box-shadow: 0px 5px 10px rgba(darken(dodgerblue, 40%));
@@ -204,13 +223,12 @@ p {
   }
 
   #shuffle {
-    padding: 2rem;
-    font-size: 1.5rem;
+    height: 8vh;
+    width: 100%;
   }
 
   .responsive {
     width: 25%;
-    height: 25%;
   }
 
   #percent {
@@ -220,7 +238,7 @@ p {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-size: 3vw;
+    font-size: 2vw;
     word-break: break-word;
     text-align: center;
     color: darkorange;
@@ -230,10 +248,9 @@ p {
     text-align: center;
   }
 
-  .bodyText {
+  body h1 {
     margin: 0;
     font-size: 40px;
-    text-align: center;
   }
 }
 
@@ -261,7 +278,7 @@ p {
 }
 
 @media (max-width: 281px) {
-  .bodyText {
+  body h1 {
     font-size: 28px;
   }
 
