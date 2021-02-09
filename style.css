@@ -75,7 +75,7 @@ body h1 {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
   margin: 2rem;
   margin-top: 0rem;
   margin-bottom: 1rem;
@@ -203,7 +203,7 @@ p {
     flex-direction: row;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   #containerTwo {
@@ -272,7 +272,7 @@ p {
   }
 
   body h1 {
-    font-size: 14pt;
+    font-size: 19pt;
   }
 }
 
