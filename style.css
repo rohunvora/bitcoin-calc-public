@@ -254,7 +254,8 @@ p {
   }
 }
 
-@media (min-width: 1126px) {
+
+@media (min-width: 1000px) {
   .textBody {
     width: 30%
   }
@@ -266,9 +267,8 @@ p {
   }
 }
 
-@media (min-width: 100px) and (max-width: 1125px) {
+@media (min-width: 100px) and (max-width: 1000px) {
   .textBody {
-    margin-top: 10%;
     width: 80%
   }
 }
