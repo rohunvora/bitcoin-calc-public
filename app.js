@@ -62,15 +62,14 @@ shuffleButton.onclick = function shuffle() {
     let percentChange = Math.round((currentValue - randomProduct.originalPrice) / (randomProduct.originalPrice)).toLocaleString() + "x" + "\n" + "return"
     console.log(percentChange)
     let percentElement = document.createElement('h1')
-    counter(currentPrice, randomProduct.originalPrice, currentValue, 10000);
-
+    
     if (randomProduct.singular == true) {
       fuckinSwitch.innerText = "of a fuckin"
     } else {
       fuckinSwitch.innerText = "of fuckin"
     }
-
-  // Change DOM Elements
+    
+    // Change DOM Elements
     percentElement.innerText = (randomProduct.btcAmount).toFixed(2) + "\n" + "Bitcoin"
     percentElement.id = "percent"
     percentElement.className = "bodyText"
@@ -79,11 +78,13 @@ shuffleButton.onclick = function shuffle() {
     productImage.src = randomProduct.image
     historics.innerHTML = "<b>Original Price:</b> " + "$" + (randomProduct.originalPrice).toLocaleString() + "<br>" + "<b>Release Date: </b>" + randomProduct.release
     percentage.parentNode.replaceChild(percentElement, percentage)
-    currentPrice.innerText = "$" + (currentValue).toLocaleString('en')
+    currentPrice.innerText = "$$$"
     productArray.splice(randomIndex, 1)
     shuffleButton.innerText = randomPhrase
-
+    
     // Final Page
+    setTimeout(() => {  counter(currentPrice, randomProduct.originalPrice, currentValue, 10000); }, 400);
+    
 }
 
 function counter(id, start, end, duration) {
@@ -92,7 +93,8 @@ function counter(id, start, end, duration) {
       current = start,
       range = end - start,
       increment = Math.floor((end - start) / 100)
-      step = Math.floor(duration / (range)),
+      step = 0
+      
       timer = setInterval(() => {
         current += increment;
         obj.textContent = "$" + (current).toLocaleString()
@@ -102,7 +104,7 @@ function counter(id, start, end, duration) {
           shuffleButton.disabled = false
         }
       }, step);
-  }
+}
 
 
   function getTen() {
