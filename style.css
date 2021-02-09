@@ -254,8 +254,7 @@ p {
   }
 }
 
-
-@media (min-width: 1000px) {
+@media (min-width: 1126px) {
   .textBody {
     width: 30%
   }
@@ -267,8 +266,9 @@ p {
   }
 }
 
-@media (min-width: 100px) and (max-width: 1000px) {
+@media (min-width: 100px) and (max-width: 1125px) {
   .textBody {
+    padding-top: 10%;
     width: 80%
   }
 }
