@@ -268,7 +268,7 @@ p {
 
 @media (min-width: 100px) and (max-width: 1125px) {
   .textBody {
-    width: 80%;
+    width: 70%;
   }
 
   body h1 {
