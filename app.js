@@ -124,6 +124,7 @@ function counter(id, start, end, duration, randomPhrase) {
 
     buttonClass.className = "button"
     buttonClass.style.width = "80%"
+    shuffleButton.style.fontSize = "80%"
 
     shuffleButton.onclick = getTen;
     boughtElement.innerText = "we're out of" + "\n" + "stupid shit..."
