@@ -254,6 +254,27 @@ p {
   }
 }
 
+@media (max-width: 1000px) {
+}
+
+@media (min-width: 1000px) {
+  .textBody {
+    width: 30%
+  }
+}
+
+@media (min-width: 1200px) {
+  .textBody {
+    width: 20%
+  }
+}
+
+@media (min-width: 100px) and (max-width: 1000px) {
+  .textBody {
+    width: 80%
+  }
+}
+
 @media (min-width: 400px) and (max-width: 550px) {
   .textBody {
     margin-top: 10%;
