@@ -106,7 +106,7 @@ function counter(id, start, end, duration) {
 
 
   function getTen() {
-     window.location = ("http://coinbase.com/join/vora_10", "_blank");
+     window.location = ("http://coinbase.com/join/vora_10");
   }
 
   function buyBitcoin() {
