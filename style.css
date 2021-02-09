@@ -1,4 +1,3 @@
-
 * {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
@@ -16,9 +15,18 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -81,6 +89,8 @@ body h1 {
   margin-bottom: 1rem;
   -ms-flex-item-align: center;
   align-self: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -98,7 +108,12 @@ body h1 {
 }
 
 .textBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -130,6 +145,7 @@ p {
   border: 0;
   height: 8vh;
   width: 80%;
+  -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   white-space: nowrap;
   font-size: 100%;

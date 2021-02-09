@@ -37,6 +37,7 @@ let bitcoinElementTwo = document.getElementById('bitcoinTwo')
 let youElement = document.getElementById("you");
 let orElement = document.getElementById('or')
 let shuffleSub = document.getElementById('shuffleSub')
+let buttonClass = document.getElementById('button')
 // const replaceText = "if u bought" + "\n" + "bitcoin instead" + "\n" + "of fuckin" + "\n" + "tesla," + "\n" + "you'd have $7,408,000."
 
 let buttonPhrases = ["I should've listened to my friend.", "Bruhh", "Warren Buffet is a bum.", "Big F", "Fat L", "FML", "That internship was not worth it.", "This is fine. I'm fine. :)", "Fuck."]
@@ -44,6 +45,7 @@ let buttonPhrases = ["I should've listened to my friend.", "Bruhh", "Warren Buff
 
 shuffleButton.onclick = function shuffle() {
 
+    shuffleButton.innerText = "..."
     shuffleButton.disabled = true
 
     if (productArray.length == 0) {
@@ -82,13 +84,13 @@ shuffleButton.onclick = function shuffle() {
     percentage.parentNode.replaceChild(percentElement, percentage)
     currentPrice.innerText = "$$$"
     productArray.splice(randomIndex, 1)
-    shuffleButton.innerText = randomPhrase
+
 
     // Final Page
-    setTimeout(() => {  counter(currentPrice, randomProduct.originalPrice, currentValue, 10000); }, 400);
+    setTimeout(() => {  counter(currentPrice, randomProduct.originalPrice, currentValue, 10000, randomPhrase); }, 400);
 }
 
-function counter(id, start, end, duration) {
+function counter(id, start, end, duration, randomPhrase) {
       obj = id,
       current = start,
       range = end - start,
@@ -100,6 +102,7 @@ function counter(id, start, end, duration) {
         if (current > end) {
           obj.textContent = "$" + (end).toLocaleString();
           clearInterval(timer);
+          shuffleButton.innerText = randomPhrase
           shuffleButton.disabled = false
         }
       }, step);
@@ -115,6 +118,9 @@ function counter(id, start, end, duration) {
     setTimeout(function () {
       shuffleButton.disabled = false;
     }, 2000);
+
+    buttonClass.className = "button"
+    buttonClass.style.width = "80%"
 
     shuffleButton.onclick = getTen;
     boughtElement.innerText = "we're out of" + "\n" + "stupid shit..."
@@ -137,8 +143,8 @@ function counter(id, start, end, duration) {
     currentPrice.parentNode.appendChild(just);
     currentPrice.parentNode.appendChild(experts);
     // shuffleButton.innerText = "Buy $100 in Bitcoin." + "\n" + "& you get $10 for free.";
-    shuffleButton.innerHTML = "Get a free $10 in Bitcoin" + "<br>" + "<sub>(before it goes up again 😉)</sub>";
-    shuffleSub.innerText = "Bitcoin will hit $150K+" + "\n" + "by the end of the year." + "\n" + "\n" + "source: trust me bro. ;)"
+    shuffleButton.innerHTML = "Get $10 of Bitcoin for Free" + "<br>" + "<sub>(before it goes up again 😉)</sub>";
+    shuffleSub.innerText = "Bitcoin will hit $150K+ by the end of the year." + "\n" + "\n" + "source: trust me bro. ;)"
   }
 
 
