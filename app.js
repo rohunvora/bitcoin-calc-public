@@ -334,15 +334,6 @@ function counter(id, start, end, duration, randomPhrase) {
     release: "9/15/16",
   };
 
-  const nintendoSwitch = {
-    name: "Nintendo Switch",
-    originalPrice: 299,
-    singular: true,
-    btcAmount: 0.23451165,
-    image: "btcimage/Nintendo DS.png",
-    release: "3/3/17",
-  };
-
   const airpods = {
     name: "Airpods",
     originalPrice: 159,
@@ -751,7 +742,6 @@ function counter(id, start, end, duration, randomPhrase) {
     xboxOne,
     snapchatSpectacles,
     fitbit,
-    nintendoSwitch,
     airpods,
     macProWheels,
     astroworldTickets,
