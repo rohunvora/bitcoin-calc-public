@@ -160,7 +160,8 @@ function counter(id, start, end, duration, randomPhrase) {
     singular: true,
     btcAmount: 290000.01,
     image: 'btcimage/Shake Weight.png',
-    release: "7/1/09"
+    release: "7/1/09",
+    associate: "https://amzn.to/3rPBLps"
   }
 
   const beatsSolo = {
@@ -170,6 +171,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 3980.13,
     image: "btcimage/Beats Hd.png",
     release: "12/1/10",
+    associate: "https://amzn.to/3aZ44Lq"
   }
 
   const sapiens = {
@@ -179,6 +181,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 833.48,
     image: "btcimage/Sapiens.png",
     release: "1/1/11",
+    associate: "https://amzn.to/2MTHMD2"
   }
 
   const tesla = {
@@ -188,6 +191,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 680.588235,
     image: "btcimage/Tesla v1.png",
     release: "6/22/13",
+    associate: ""
   }
 
   const nintendoDS = {
@@ -197,6 +201,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 286.206897,
     image: "btcimage/Nintendo DS.png",
     release: "3/27/11",
+    associate: "https://amzn.to/3qtJnh2"
   }
 
   const oculus = {
@@ -206,6 +211,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 26.2972735,
     image: "btcimage/Oculus.png",
     release: "8/1/12",
+    associate: "https://amzn.to/3ahXBMk"
   }
 
   const goPro = {
@@ -215,6 +221,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 23.142,
     image: "btcimage/Go Pro.png",
     release: "12/1/12",
+    associate: "https://amzn.to/37cSxHs"
   }
 
   const starbucks = {
@@ -224,6 +231,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 16.5134,
     image: "btcimage/Starbucks cup.png",
     release: "1/1/11",
+    associate: ""
   }
 
   const cardsAgainst = {
@@ -233,6 +241,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 7.26744186,
     image: "btcimage/Cards Against Humanity.png",
     release: "5/1/11",
+    associate: "https://amzn.to/2ZiX0DP"
   }
 
   const iPhone = {
@@ -242,6 +251,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 5.84882087,
     image: "btcimage/I phone 5.png",
     release: "9/20/13",
+    associate: "https://amzn.to/3jIKbfH"
   }
 
   const googleGlass = {
@@ -251,6 +261,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 3.3572068,
     image: "btcimage/Google Glass.png",
     release: "5/14/14",
+    associate: ""
   }
 
   const coachellaTickets = {
@@ -260,6 +271,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 1.68463607,
     image: "btcimage/Coachella tickets.png",
     release: "4/19/15",
+    associate: ""
   }
 
   const juicero = {
@@ -269,6 +281,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 1.60644237,
     image: "btcimage/juicero.png",
     release: "3/1/16",
+    associate: ""
   }
 
   const ps4 = {
@@ -278,6 +291,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 1.07576166,
     image: "btcimage/PS$.png",
     release: "11/13/13",
+    associate: "https://amzn.to/2Z9A1vb"
   }
 
   const yeezy = {
@@ -287,6 +301,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 1.593688674,
     image: "btcimage/Yeezys.png",
     release: "6/27/15",
+    associate: ""
   }
 
   const juul = {
@@ -296,6 +311,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: .18722851,
     image: "btcimage/Juul.png",
     release: "5/22/15",
+    associate: ""
   }
 
   const hoverboard = {
@@ -305,6 +321,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: .25380711,
     image: "btcimage/Hoverboard.png",
     release: "8/1/14",
+    associate: "https://amzn.to/2Z9A2zf"
   }
 
   const xboxOne = {
@@ -314,6 +331,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.66989757,
     image: "btcimage/X Box One.png",
     release: "11/22/13",
+    associate: "https://amzn.to/3qnETJa"
   };
 
   const snapchatSpectacles = {
@@ -323,6 +341,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.5310719,
     image: "btcimage/Snapchat Spectacles.png",
     release: "11/10/16",
+    associate: "https://amzn.to/2Zc0LLp"
   };
 
   const fitbit = {
@@ -332,6 +351,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.32940516,
     image: "btcimage/Fitbit.png",
     release: "9/15/16",
+    associate: "https://amzn.to/3tV8Din"
   };
 
   const airpods = {
@@ -341,6 +361,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.20370094,
     image: "btcimage/Airpods.png",
     release: "12/13/16",
+    associate: "https://amzn.to/2LRRoO4"
   };
 
   const macProWheels = {
@@ -350,6 +371,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.10171523,
     image: "btcimage/Mac Pro Wheels.png",
     release: "4/20/20",
+    associate: ""
   };
 
   const astroworldTickets = {
@@ -359,6 +381,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.05380636,
     image: "btcimage/Astroworld Tickets.png",
     release: "11/16/18",
+    associate: ""
   };
 
   const supremeBoxLogo = {
@@ -368,6 +391,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.05157324,
     image: "btcimage/_0004_Supreme-f15.png",
     release: "8/20/16",
+    associate: ""
   };
 
   const tinderGold = {
@@ -377,6 +401,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.03839325,
     image: "btcimage/Tinder Gold.png",
     release: "3/1/15",
+    associate: ""
   };
 
   const pornHubPremium = {
@@ -386,6 +411,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.03179008,
     image: "btcimage/Pornhub Premium.png",
     release: "1/1/15",
+    associate: ""
   };
 
   const airpodsPro = {
@@ -395,6 +421,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.02704838,
     image: "btcimage/Airpod Pros.png",
     release: "10/30/19",
+    associate: ""
   };
 
   const powerBalance = {
@@ -404,6 +431,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.01785863,
     image: "btcimage/Power Balance.png",
     release: "12/16/13",
+    associate: ""
   };
 
   const cybertruckReservation = {
@@ -413,6 +441,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.0134693,
     image: "btcimage/cybertruck reservation.png",
     release: "12/1/19",
+    associate: ""
   };
 
   const hungerGames = {
@@ -422,6 +451,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 2.16962525,
     image: "btcimage/_0036_Hunger-Games.png",
     release: "3/12/12",
+    associate: ""
   };
 
   const fiftyShadesOfGrey = {
@@ -431,6 +461,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.06371402,
     image: "btcimage/_0035_50-Shades-of-Grey.png",
     release: "5/1/11",
+    associate: ""
   };
 
   const DJIDrone = {
@@ -440,6 +471,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 85.166785,
     image: "btcimage/_0034_DJI-Drone.png",
     release: "1/7/13",
+    associate: ""
   };
 
   const casperMattress = {
@@ -449,6 +481,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 1.81997259,
     image: "btcimage/_0033_Casper-Mattress.png",
     release: "4/1/14",
+    associate: ""
   };
 
   const roku = {
@@ -458,6 +491,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 5.21108179,
     image: "btcimage/_0032_Roku.png",
     release: "7/1/11",
+    associate: ""
   };
 
   const philipsHueLED = {
@@ -467,6 +501,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 68.4931507,
     image: "btcimage/_0031_Philips-Hue-Light.png",
     release: "10/29/12",
+    associate: ""
   };
 
   const instantPot = {
@@ -476,6 +511,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 476.190476,
     image: "btcimage/_0030_Instant-Pot.png",
     release: "10/1/10",
+    associate: ""
   };
 
   const impossibleBurger = {
@@ -485,6 +521,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.0103505,
     image: "btcimage/_0029_Impossible-Burger.png",
     release: "7/1/16",
+    associate: ""
   };
 
   const playstationVita = {
@@ -494,6 +531,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 18.7265918,
     image: "btcimage/_0028_PS-Vita.png",
     release: "12/17/11",
+    associate: ""
   };
 
   const pebbleEInkWatch = {
@@ -503,6 +541,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 7.72002059,
     image: "btcimage/_0027_Pebble-Watch.png",
     release: "1/23/13",
+    associate: ""
   };
 
   const theBookOfMorom = {
@@ -512,6 +551,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 1.42857143,
     image: "btcimage/_0026_Book-of-Mormon.png",
     release: "3/24/11",
+    associate: ""
   };
 
   const NikeFuelband = {
@@ -521,6 +561,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 33.7837838,
     image: "btcimage/_0025_Nike-Fuel-Band.png",
     release: "2/22/12",
+    associate: ""
   };
 
   const iPadMini = {
@@ -530,6 +571,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 109.302326,
     image: "btcimage/_0021_I-Pad-Mini.png",
     release: "11/2/12",
+    associate: ""
   };
 
   const toyStory3 = {
@@ -539,6 +581,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 219.8,
     image: "btcimage/_0020_Toy-Story-3.png",
     release: "6/18/10",
+    associate: ""
   };
 
   const willU = {
@@ -548,6 +591,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 27.3559012,
     image: "btcimage/_0019_Wii-U.png",
     release: "11/18/12",
+    associate: ""
   };
 
   const theSocialNetwork = {
@@ -557,6 +601,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 119.9,
     image: "btcimage/_0018_The-Social-Network.png",
     release: "10/12/10",
+    associate: ""
   };
 
   const wolfOnWallStreet = {
@@ -566,6 +611,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.01870953,
     image: "btcimage/_0017_Wolf-of-Wallstreet.png",
     release: "3/25/14",
+    associate: ""
   };
 
   const fourHourChef = {
@@ -575,6 +621,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.89141005,
     image: "btcimage/_0037_4-Hour-Chef.png",
     release: "11/20/12",
+    associate: ""
   };
 
   const amazonEcho = {
@@ -593,6 +640,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.03422235,
     image: "btcimage/_0022_Apple-Homepod.png",
     release: "2/9/18",
+    associate: ""
   };
 
   const appleWatchv1 = {
@@ -602,6 +650,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 1.07667293,
     image: "btcimage/_0016_Apple-Watch-V1.png",
     release: "4/24/15",
+    associate: ""
   };
 
   const averagers = {
@@ -611,6 +660,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 2.57936508,
     image: "btcimage/_0015_Avengers.png",
     release: "5/4/12",
+    associate: ""
   };
 
   const bitcoinForDummies = {
@@ -620,6 +670,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.03433283,
     image: "btcimage/_0014_Bitcoin-for-Dummies.png",
     release: "3/21/16",
+    associate: ""
   };
 
   const dysonVacuum = {
@@ -629,6 +680,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 1.28835442,
     image: "btcimage/_0013_Dyson-Vacuum.png",
     release: "5/1/15",
+    associate: ""
   };
 
   const kony2012Shirt = {
@@ -638,6 +690,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 1.74854288,
     image: "btcimage/_0009_Kony-2012.png",
     release: "10/10/12",
+    associate: ""
   };
 
   const kyleJennerLipKit = {
@@ -647,6 +700,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.3312829,
     image: "btcimage/_0008_Kylie-Jenner-Lip-Kit.png",
     release: "11/30/15",
+    associate: ""
   };
 
   const mumfordAndSonsTicket = {
@@ -656,6 +710,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 17.6375405,
     image: "btcimage/_0007_Mumford-and-Sons.png",
     release: "1/23/12",
+    associate: ""
   };
 
   const paulPierceJersey = {
@@ -665,6 +720,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 2.56880734,
     image: "btcimage/_0006_Pierce-Jersey.png",
     release: "6/12/11",
+    associate: ""
   };
 
   const polaroidInstaxMini8 = {
@@ -674,6 +730,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 10.8974359,
     image: "btcimage/_0005_Polaroid.png",
     release: "11/1/12",
+    associate: ""
   };
 
   const supremeBoxLogoF15 = {
@@ -683,6 +740,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 2.62008734,
     image: "btcimage/_0004_Supreme-f15.png",
     release: "9/1/15",
+    associate: ""
   };
 
   const theraGun = {
@@ -692,6 +750,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.23023755,
     image: "btcimage/_0003_Theragun.png",
     release: "1/1/16",
+    associate: ""
   };
 
   const tonyRobbinsSeminar = {
@@ -701,6 +760,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 3.14659947,
     image: "btcimage/_0002_Tony-Robbins-seminar.png",
     release: "3/24/17",
+    associate: ""
   };
 
   const zeroToOne = {
@@ -710,6 +770,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 0.05464278,
     image: "btcimage/_0001_Zero-to-One.png",
     release: "9/17/14",
+    associate: ""
   };
 
   const lvSupreme = {
@@ -719,6 +780,7 @@ function counter(id, start, end, duration, randomPhrase) {
     btcAmount: 53.1,
     image: "btcimage/Supreme Chest.png",
     release: "3/02/17",
+    associate: ""
   };
 
   const productArray = [
