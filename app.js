@@ -434,7 +434,7 @@ function counter(id, start, end, duration, randomPhrase) {
     name: "Fifty Shades of Grey",
     originalPrice: 19.99,
     singular: true,
-    btcAmount: 0.06371402,
+    btcAmount: 19.99,
     image: "btcimage/_0035_50-Shades-of-Grey.png",
     release: "5/1/11",
   };
