@@ -800,4 +800,5 @@ function counter(id, start, end, duration, randomPhrase) {
     tonyRobbinsSeminar,
     zeroToOne,
     lvSupreme,
+    antiFragile
   ];
