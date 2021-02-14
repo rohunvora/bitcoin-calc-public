@@ -727,6 +727,15 @@ function counter(id, start, end, duration, randomPhrase) {
     release: "3/02/17",
   };
 
+  const antiFragile = {
+    name: "Antifragile",
+    originalPrice: 19.99,
+    singular: false,
+    btcAmount: 1.629,
+    image: "btcimage/Anti Fragile.png",
+    release: "11/27/2012",
+  }
+
   const productArray = [
     shakeWeight,
     beatsSolo,
