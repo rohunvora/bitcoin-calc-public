@@ -482,3 +482,7 @@ p {
 #donate {
   display: none;
 }
+
+#owner {
+  text-align: right;
+}
