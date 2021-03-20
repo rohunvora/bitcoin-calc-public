@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: bitcoinorshit.com
+Token: 1c0ae82edfac40d0ed0acde1a2d590895e590fc30e96471695c444e3226b4bd3
